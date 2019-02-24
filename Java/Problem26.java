@@ -16,7 +16,7 @@ public class Problem26 {
 		if(numLen == 0 || numLen == 1)
 			return numLen;
 		
-        // Using additional index 'j' for storing elemens in the same array
+        // Using additional index 'j' for storing elements in the same array
 		int j = 0, i;
 		for(i = 0; i<numLen - 1; i++) {
 			if(nums[i] != nums[i+1]) {
