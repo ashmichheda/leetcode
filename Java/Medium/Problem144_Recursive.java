@@ -11,7 +11,7 @@ class Problem144_Recursive {
     List<Integer> result = new ArrayList<Integer>();
     public List<Integer> preorderTraversal(TreeNode root) {
         // Recursive Solution
-        // Preorder Traversal - Root, left, right
+        // Preorder Traversal - Visit --> Root, left, right
         if(root == null)
             return result;
         result.add(root.val);
