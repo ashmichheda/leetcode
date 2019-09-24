@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem709 {
 
   public String toLowerCase(String str) {

@@ -1,7 +1,3 @@
-package com.leetcodeEasy.progs;
-import static java.lang.Character.isLetterOrDigit;
-import static java.lang.Character.toLowerCase;
-
 public class Problem125 {
     public boolean isPalindrome(String s) {
 

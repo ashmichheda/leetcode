@@ -1,7 +1,3 @@
-package com.leetcodeEasy.progs;
-
-import java.util.Arrays;
-
 public class Problem561 {
 
     public int arrayPairSum(int[] nums) {
@@ -13,10 +9,4 @@ public class Problem561 {
         return ans;
     }
 
-    public static void main(String[] args) {
-        Problem561 p = new Problem561();
-        int a[] = {1,4,3,2};
-        int result = p.arrayPairSum(a);
-        System.out.println("Answer is: "+result);
-    }
 }

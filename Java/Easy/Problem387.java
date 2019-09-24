@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem387 {
 
     public int firstUniqChar(String s) {
@@ -17,11 +15,5 @@ public class Problem387 {
                 return i;
         }
         return -1;
-    }
-    public static void main(String[] args) {
-        Problem387 p = new Problem387();
-        String s = "leetcode";
-        int result = p.firstUniqChar(s);
-        System.out.println("Answer is: "+result);
     }
 }
