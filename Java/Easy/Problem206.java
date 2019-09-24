@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Problem206 {
     public ListNode reverseList(ListNode head) {
 
         ListNode prev = null;

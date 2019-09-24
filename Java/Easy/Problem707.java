@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem707 {
 
     class Node{
@@ -120,16 +118,4 @@ public class Problem707 {
                 temp = temp.next;
             }
         }
-
-    public static void main(String[] args) {
-        Problem707 p = new Problem707();
-        p.addAtHead(1);
-        p.addAtTail(3);
-        p.addAtIndex(1, 2);
-        p.printLinkedList();
-        System.out.println(p.get(1));
-        p.deleteAtIndex(0);
-        p.printLinkedList();
-        System.out.println(p.get(0));
-    }
 }

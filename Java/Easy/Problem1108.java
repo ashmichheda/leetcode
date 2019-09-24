@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem1108 {
 
         public String defangIPaddr(String address) {

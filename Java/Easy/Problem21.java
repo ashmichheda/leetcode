@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
     /**
      * Definition for singly-linked list.
      * public class ListNode {

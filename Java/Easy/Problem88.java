@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem88 {
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -46,16 +44,5 @@ public class Problem88 {
         }
 
     }
-    public static void main(String[] args) {
-
-        int nums1[] = {2, 0};
-        int nums2[] = {1};
-        int m = 1, n = 1;
-        Problem88 p = new Problem88();
-        p.merge(nums1, m, nums2, n);
-        System.out.println("Final merged sorted array");
-        for(int i = 0; i<nums1.length; i++){
-            System.out.print(" "+nums1[i]+" ");
-        }
-    }
+  }
 }

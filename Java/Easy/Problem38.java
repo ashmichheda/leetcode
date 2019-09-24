@@ -1,5 +1,3 @@
-package com.leetcodeEasy.progs;
-
 public class Problem38<s> {
 
     public static String countAndSay(int n) {
@@ -30,11 +28,5 @@ public class Problem38<s> {
         }
 
         return s[n-1];
-    }
-    public static void main(String[] args) {
-
-        int n = 7;
-        String result = countAndSay(n);
-        System.out.println(result);
     }
 }

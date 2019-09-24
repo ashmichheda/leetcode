@@ -1,22 +1,17 @@
-package com.prog.LeetCodeProgs;
-
-import java.util.HashMap;
-import java.util.Map;
-
 public class RomanToInteger {
 
 	public static void main(String[] args) {
-		
+
 		String s = "LVIII";
 		int result = romanToInt(s);
 		System.out.println(result);
 
 	}
-	
+
 	private static int romanToInt(String s) {
-        
+
 		// check for null and 0 length
-				if(s.length() == 0 || s == null) 
+				if(s.length() == 0 || s == null)
 					return 0;
 				char sample[] = s.toCharArray();
 				Map<Character, Integer> input = new HashMap<Character, Integer>();
@@ -37,7 +32,7 @@ public class RomanToInteger {
 		                sum = sum - a;
 		            else
 		                sum = sum + a;
-				}	
+				}
 				return sum;
     }
 
