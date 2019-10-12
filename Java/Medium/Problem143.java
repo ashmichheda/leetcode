@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Problem143 {
     public void reorderList(ListNode head) {
         List<ListNode> result = new ArrayList<>();
 
